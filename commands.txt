@@ -1,6 +1,8 @@
 You must have created the database before run migrations
 
-adonis migration:run            -> run migrations
-adonist migration:status        -> shows a table with migrations and their status
-adonis make:model Cliente -m -c -> create Cliente model. -m: create migration -c: create controller
-adonis route:list               -> shows a table with routes
+adonis migration:run                    -> run migrations
+adonist migration:status                -> shows a table with migrations and their status
+adonis make:model Cliente -m -c         -> create Cliente model. -m: create migration -c: create controller
+adonis make:controller User --type http -> create User http controller
+adonis route:list                       -> shows a table with routes
+adonis key:generate                     -> required to encrypt cookies, sessions and other sensitive data
